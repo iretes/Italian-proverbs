@@ -29,11 +29,9 @@ for index, row in data.iterrows():
     with open(f'{vault_dir}/{row["proverbio"]}.md', 'w') as f:
         for tag in row['tags'].split(';'):
             f.write(f'[[{tag.strip()}]]\n')
-            break
 
 # create a file for each tag
 tags = data['tags'].str.get_dummies(sep=';')
 for tag in tags.columns:
     with open(f'{vault_dir}/{tag}.md', 'w') as f:
         f.write(f'#topic\n')
-    break
