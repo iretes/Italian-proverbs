@@ -14,6 +14,9 @@ A dataset of approximately 2300 Italian proverbs, categorized by ChatGPT based o
 
 ### Explore the Obsidian graph
 
+https://github.com/user-attachments/assets/82185668-1225-4447-bbf8-7311cd30c9a3
+
+
 ## Sources
 
 - https://it.wikiquote.org/wiki/Proverbi_italiani
